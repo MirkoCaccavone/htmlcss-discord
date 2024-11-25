@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney , 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70px;
+    background-color: #3160e0;
+}
+
+.container-nav{
+    color: white;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 15%;
+} 
+
+/* ul container rules */
+.link{
+    min-width: 560px;
+    justify-content: center;
+}
+
+/* valid for all li */
+ul li{
+    list-style: none;
+}
+
+.container-nav.link li{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    flex-basis: 15%;
+    justify-content: flex-end;
+}
+
+/* buttons rules */
+button{
+    padding: 10px 15px;
+    border-radius: 99999px;
+    border: none;
+}
+
+.button-white{
+    background-color: white;
+    color: black;
+}
+
+.button-black{
+    background-color: black;
+    color: white;
+}
+
+.button-blue{
+    background-color: #8ea2e4;
+    color: white;
+    margin: 20px 10px 10px;
+}
+
+.big-button{
+    font-size: 15px;
+    margin: 20px 10px 10px;
+}
+
+/*main rules */
+
+
+/*jumbotron rules */
+
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    padding: 40px;
+    color: white;
+}
+
+/* jumbotron-content rules */
+
+.jumbotron-content{
+    flex-basis: 60%;
+    text-align: center;
+    padding: 25px;
+    min-width: 700px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-content > p{
+    font-size: 15px;
+    padding: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+/* down arrow */
+.down-arrow{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+/* containers with two squares rules */
+.container-main{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.container-main.gray,
+.last-container-main.gray{
+    background-color: #d3d3d3;
+}
+
+.wave{
+    display: flex;
+}
+
+.wave.rotate{
+    transform: rotate(180deg);
+}
+
+/* square rules */
+.content-main.img{
+    height: 350px;
+}
+
+.content-main.text{
+    flex-basis: 30%;
+    padding: 30px;
+    min-width: 350px;
+}
+
+.content-main.text > h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.content-main.text > p{
+    font-size: 15px;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+/* last container with green square rules  */
+
+.last-container-main.gray{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+}
+
+.last-content-main{
+    flex-basis: 80%;
+    text-align: center;
+}
+
+.last-content-main > h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.last-content-main > p{
+    font-size: 15px;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+#img-stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 80px;
+    width: 400px;
+    margin: auto;
+} 
+
+/* footer rules */
+
+footer{
+    background-color: #23272a;
+}
+
+/* container with five squares */
+.upper-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.content-footer{
+    height: 400px;
+}
+
+/* contacts conteiner */
+.content-footer.contacts{
+    flex-basis: 28%;
+    padding: 10px;
+}
+
+h4{
+    color: #7d91d1;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#language{
+    color: white;
+}
+
+#language::after{
+    content: "\02C5";
+    font-size: 15px;
+}
+
+.bandiera{
+    width: 20px;
+    height: 15px;
+}
+
+.loghi{
+    display: flex; 
+}
+
+.loghi > li{
+    margin: 20px 0;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.loghi img{
+    width: 25px;
+}
+
+.content-footer.who-we-are{
+    flex-basis: 13%;
+    margin: 10px;
+    min-width: 150px;
+    
+}
+
+.faq > li{
+   font-size: 18px; 
+   font-weight: bold;
+   color: white;
+   line-height: 35px;
+}
+
+.faq li:first-child{
+    color: #7680b3;
+}
+
+/* container with logo and button */
+.lower-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.sub-container-footer{
+    height: 100px;
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid white;
+}
