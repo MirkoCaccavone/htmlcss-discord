@@ -43,6 +43,9 @@ ul li{
 a{
     text-decoration: none;
     color: white;
+    padding: 10px 15px;
+    border-radius: 99999px;
+    border: none;
 }
 
 .login{
@@ -76,6 +79,11 @@ button{
 .big-button{
     font-size: 15px;
     margin: 20px 10px 10px;
+    display: inline-block;
+}
+
+.big-button:hover {
+    background-color: #4752c4;
 }
 
 /*main rules */
