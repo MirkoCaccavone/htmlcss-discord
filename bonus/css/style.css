@@ -40,12 +40,9 @@ ul li{
     margin: 20px;
 }
 
-a{
+.container-nav.link a{ 
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
-    border-radius: 99999px;
-    border: none;
 }
 
 .login{
@@ -84,6 +81,13 @@ button{
 
 .big-button:hover {
     background-color: #4752c4;
+}
+
+a.big-button{
+    padding: 10px 15px;
+    border-radius: 99999px;
+    border: none;
+    text-decoration: none;
 }
 
 /*main rules */
@@ -263,8 +267,12 @@ h4{
     font-size: 20px;
 }
 
-.loghi img{
-    width: 25px;
+.logo-social{
+    color: white;
+}
+
+.logo-social:hover{
+    color: #4752c4;
 }
 
 .content-footer.who-we-are{
