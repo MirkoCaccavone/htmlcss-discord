@@ -25,6 +25,9 @@ nav{
     flex-basis: 15%;
 } 
 
+.logo-discord:hover{
+    transform: scale(1.2);
+}
 /* ul container rules */
 .link{
     min-width: 560px;
@@ -139,6 +142,10 @@ h1{
     justify-content:center;
     gap: 40px;
     padding: 30px;
+}
+
+.content-main.img:hover{
+    transform: scale(1.2);
 }
 
 .container-main.gray,
